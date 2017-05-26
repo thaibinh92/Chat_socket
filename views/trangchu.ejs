@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chu</title>
+    <script src='jquery.min.js'></script>
+    <script src='socket.io/socket.io.js'></script>
+    <script src="process.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="loginform">
+        <h3>
+            WHAT IS YOUR NAME?
+        </h3>   
+        <input type="text" name="username" value="" id="txtUserName">
+        <input type="button"  value="Register" id="btnRegister">
+        </div>
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">Users Online</div>
+                <div id="boxContent">
+                    <div class="useronline">ThaiBinh</div>
+                    <div class="useronline">ThaiBinh</div>
+                    <div class="useronline">ThaiBinh</div>
+                    <div class="useronline">ThaiBinh</div>
+                    <div class="useronline">ThaiBinh</div>
+                    <div class="useronline">ThaiBinh</div>
+                
+                </div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    Hello <span id="currentUser">ThaiBinh</span>
+                    <input type="button" id="btnLogout" value="Logout">
+                </div>
+                <div id="listMessage">
+
+                </div>
+
+                <input type="text" id="txtMessage"/>
+                <input type="button" id="btnSendMessage" value="Send">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

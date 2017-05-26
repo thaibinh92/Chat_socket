@@ -1,0 +1,50 @@
+body{
+    background-color: #eff1f4
+}
+
+#wrapper{
+    width: 800px;
+    margin: auto;
+
+}
+
+#left{
+    width: 30%;
+    float: left;
+    background-color: #c7e7f9
+}
+
+#right{
+    width: 70%;
+    float: right;
+    background-color: #c5f7f2
+}
+
+#chatForm{
+    padding: 10px;
+    margin: 10px;
+}
+
+#left,#right{
+    min-height: 300px;
+}
+#boxTitle{
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#boxContent{
+    border: solid 1px black;
+    border-top: none;
+    padding: 5px;
+    text-align: center;
+}
+#sayHi{
+    text-align: right;
+}
+#listMessage{
+    height: 200px;
+    background-color: #c5f7da;
+    margin-bottom: 10px;
+}

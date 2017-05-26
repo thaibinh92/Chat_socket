@@ -1,0 +1,19 @@
+{
+  "name": "chat_socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaibinh92/Chat_socket.git"
+  },
+  "author": "ThaiBinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaibinh92/Chat_socket/issues"
+  },
+  "homepage": "https://github.com/thaibinh92/Chat_socket#readme"
+}
